@@ -2,5 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ChongoApp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ChongoAppAndroid" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ChongoApp_Android" vcs="Git" />
   </component>
 </project>
