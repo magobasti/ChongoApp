@@ -27,7 +27,8 @@ class DashboardFragment : Fragment() {
 
         _binding = FragmentDashboardBinding.inflate(inflater, container, false)
         val root: View = binding.root
-
+        var completo=0
+        var inter=0
         return root
     }
 
