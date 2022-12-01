@@ -8,6 +8,7 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.example.chongoapp.databinding.ActivityMainBinding
+import com.example.chongoapp.ui.conexion.conectar
 
 class MainActivity : AppCompatActivity() {
 
