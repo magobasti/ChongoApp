@@ -8,6 +8,7 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.chongoapp.databinding.FragmentHomeBinding
+import com.example.chongoapp.ui.conexion.conectar
 
 class HomeFragment : Fragment() {
 
@@ -27,7 +28,7 @@ class HomeFragment : Fragment() {
 
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
         val root: View = binding.root
-
+        val conn= conectar().conexion()
         return root
     }
 
